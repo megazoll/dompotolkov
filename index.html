@@ -789,6 +789,16 @@
         <div class="container"><small class="copyright pull-left">&copy; 2020 <a href="http://dompotolkov.ru/">Дом
                     Потолков</a></small></div>
     </footer>
+    <div class="share-wrap">
+      <a id="callme" tabindex="0" data-placement="top" data-toggle="popover" role="button" data-trigger="focus" data-html="true" data-content='
+        <a href="https://api.whatsapp.com/send?phone=79166390999" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href="https://t.me/dompotolkovv" target="_blank"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+        <a href="mailto:info@dompotolkov.ru" target="_blank"><i class="fa fa-at" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/dompotolkovv/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      '>
+        <div id="callmeMain"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+      </a>
+    </div>
     <div class="modal modal-feature" id="request-modal" tabindex="-1" role="dialog"
         aria-labelledby="featureModalLabel-1" aria-hidden="true">
         <div class="modal-dialog">
@@ -906,6 +916,12 @@
         <div><img src="//top-fwz1.mail.ru/counter?id=2890095;js=na" style="border:0;position:absolute;left:-9999px"
                 alt=""></div>
     </noscript>
+
+    <script >
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
 </body>
 
 </html>
